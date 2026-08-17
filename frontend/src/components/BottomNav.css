@@ -1,0 +1,25 @@
+.welcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid red;
+
+}
+.menu-btn {
+    display: none;
+    border: 2px solid burlywood;
+}
+
+@media(max-width:600px){
+   .welcome-container{
+      background-color: yellow;
+      /* display: none; */
+      flex-direction: column;
+      justify-content: start; 
+   }
+   .menu-btn {
+    display: block;
+    justify-self: start;
+    align-self: start;
+   }
+}

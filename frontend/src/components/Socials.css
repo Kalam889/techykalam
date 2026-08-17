@@ -1,0 +1,6 @@
+.socials-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
