@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: rgb(123, 234, 234); */
+    /* background: linear-gradient(to right, rgb(8, 158, 158), rgb(35, 26, 26)); */
     font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background: linear-gradient(to right, rgb(8, 158, 158), rgb(35, 26, 26));
+
 }
