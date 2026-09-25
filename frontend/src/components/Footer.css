@@ -1,0 +1,44 @@
+.footer-container {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 80px;
+}
+.techy {
+    color: white;
+}
+.kalam {
+    color: #3b82f6;
+}
+.copy-right {
+    color:white;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;   
+    transition: 0.3s;
+
+}
+.nav-links a:hover {
+    color: #22D3EE;
+}
+.right-footer {
+    color:azure;
+    display: flex;
+    justify-content: end;
+}
+@media(max-width:768px){
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .right-footer {
+        display: flex;
+        justify-content: start;
+    }
+}

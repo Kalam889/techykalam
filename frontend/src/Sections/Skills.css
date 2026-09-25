@@ -1,0 +1,53 @@
+.skills-container {
+    background: black;
+    padding: 0px 80px;
+
+}
+.skills-container p {
+    color:#3b82f6;
+}
+.skills-container h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.skills-card {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+}
+.skill {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+.skill:hover {
+    border-color: #3b82f6;
+    transform: translateY(-5px);
+}
+.skill p {
+    color: white;
+}
+.python { color: #3776AB; font-size: 40px; }
+.linux { color: #FCC624; font-size: 40px; }
+.network { color: #3B82F6; font-size: 40px; }
+.html { color: #E34F26; font-size: 40px; }
+.css { color: #1572B6; font-size: 40px; }
+.js { color: #F7DF1E; font-size: 40px; }
+.react { color: #61DAFB; font-size: 40px; }
+.flask { color: #FFFFFF; font-size: 40px; }
+.git { color: #F05032; font-size: 40px; }
+
+@media(max-width: 768px){
+    .skills-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

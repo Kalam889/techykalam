@@ -1,12 +1,5 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /* background: linear-gradient(to right, rgb(8, 158, 158), rgb(35, 26, 26)); */
-    font-family:'Courier New', Courier, monospace;
-}
-
-body {
-    background: linear-gradient(to right, rgb(8, 158, 158), rgb(35, 26, 26));
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
