@@ -1,7 +1,7 @@
 import "./Projects.css"
-import calculator from "../assets/Calculator.png"
-import restaurant from "../assets/Restaurant.png"
-import phising from "../assets/Phising.png"
+import calculator from "../assets/calculator.png"
+import restaurant from "../assets/restaurant.png"
+import phising from "../assets/phising.png"
 
 function Projects() {
     return(
